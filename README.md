@@ -143,5 +143,5 @@ The exchange rate of the base currency (`base_code`) to the exchange currency (`
 ```
 
 ##TO DO
-[ ] Enable time range filter to pull in historical date.
+- [ ] Enable time range filter to pull in historical date.
 
