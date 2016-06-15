@@ -43,6 +43,7 @@ The integration can take an array of specific Currency Codes if not all are desi
 "RUB" : Russian Ruble
 "SEK" : Swedish Krona
 "SGD" : Singapore Dollar
+"USD" : United States Dollar
 "THB" : Thai Baht
 "TRY" : Turkish Lira
 "ZAR" : South African Rand
