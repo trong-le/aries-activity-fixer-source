@@ -1,6 +1,6 @@
 # Aries Integration for [Fixer.io](http://fixer.io)
 
-Fixer.io is a free JSON API for current and historical foreign exchange rates published by the European Central Bank.
+Fixer.io is a free JSON API for current and historical foreign exchange rates published by the European Central Bank. As of 1 July 2016, the reference rates will be updated at around 16:00 CET.
 
 ## Parameters
 
