@@ -6,9 +6,7 @@ Fixer.io is a free JSON API for current and historical foreign exchange rates pu
 
 #### Date
 The integration takes a single date from which to pull the data. If not specified, the integration will pull from the most recent date.
-```javascript
 
-```
 #### Base
 The integration takes one Currency Code from which to base the exchange rates. If not specified, the integration will return all currencies with the EURO as the base.
 
