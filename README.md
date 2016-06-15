@@ -13,7 +13,7 @@ The integration takes one Currency Code from which to base the exchange rates. I
 #### Symbols
 The integration can take an array of specific Currency Codes if not all are desired. If not specified, the integration will return all available currencies.
 
-#### Currecy Codes
+#### Currency Codes
 ```javascript
 "AUD" : Australian Dollar
 "BGN" : Bulgarian Lev
