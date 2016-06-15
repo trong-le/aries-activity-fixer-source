@@ -9,18 +9,18 @@ Fixer.io is a free JSON API for current and historical foreign exchange rates pu
 ```
 
 ## Response
-Fixer.io sends all response in JSON formatting.
+Fixer.io sends all responses in JSON formatting. There will be three main response elements.
 
-### Base -
+### Base
 The currency on which the rates are based. By default, this will be the Euro (EUR).
 
-### Date -
+### Date
 The date to which the rates correspond. By default, this will be the most recent date where data is available.
 
-### Rates -
+### Rates
 The alternative currencies and their respective rates as key-value pairs. By default, all available currencies and their rates will be returned.
 
-
+###Example
 ```javascript
 {
     "base": "USD",
