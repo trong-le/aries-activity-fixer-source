@@ -50,16 +50,19 @@ The integration can take an array of specific Currency Codes if not all are desi
 ```
 
 ## Response
-Fixer.io sends all responses in JSON formatting. There will be three main response elements.
+Fixer.io sends all responses in JSON formatting. There will be three main response elements, which Astronomer organizes into four key-value pairs.
 
-#### Base
-The currency on which the rates are based. By default, this will be the Euro (EUR).
+#### Base Code
+The currency code on which all returned rates are based. By default, this will be the Euro (EUR).
 
 #### Date
 The date to which the rates correspond. By default, this will be the most recent date where data is available.
 
-#### Rates
-The reponse will be an array of objects including the base currency, the relevant date, and alternative currencies with their respective rates as key-value pairs. By default, all available currencies and their rates will be returned. 
+#### Exchange Code
+The corresponding currency code corresponding to the exchange rate. By default, all available currencies and their rates will be returned.
+
+#### Rate
+The exchange rate of the base currency (`base_code`) to the exchange currency (`exchange_currency`).
 
 #### Raw Output Example
 ```javascript
@@ -106,29 +109,34 @@ The reponse will be an array of objects including the base currency, the relevan
 ```javascript
 {
 	{
-		"base": "USD",
+		"base_code": "USD",
 		"date": "2016-06-15",
-		"AUD": 1.3524
+		"exchange_code": "AUD"
+		"rate": 1.3524
 	},
 	{
-		"base": "USD",
+		"base_code": "USD",
 		"date": "2016-06-15",
-		"BGN": 1.7416
+		"exchange_code": "BGN",
+		"rate": 1.7416
 	},
 	{
-		"base": "USD",
+		"base_code": "USD",
 		"date": "2016-06-15",
-		"BRL": 3.4679
+		"exchange_code": "BRL",
+		"rate": 3.4679
 	},
 	{
-		"base": "USD",
+		"base_code": "USD",
 		"date": "2016-06-15",
-		"CAD": 1.2857
+		"exchange_code": "CAD",
+		"rate": 1.2857
 	},
 	{
-		"base": "USD",
+		"base_code": "USD",
 		"date": "2016-06-15",
-		"CHF": 0.96322
+		"exchange_code": "CHF",
+		"rate": 0.96322
 	},
 	...
 }
