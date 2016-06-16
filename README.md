@@ -50,7 +50,7 @@ The integration can take an array of specific Currency Codes if not all are desi
 ```
 
 ## Response
-Fixer.io sends all responses in JSON formatting. There will be three main response elements, which Astronomer organizes into four key-value pairs.
+Fixer.io sends all responses in JSON formatting. There will be three main response elements, which Astronomer organizes into an array containing objects of four key-value pairs.
 
 #### Base Code
 The currency code on which all returned rates are based. By default, this will be the Euro (EUR).
