@@ -107,11 +107,11 @@ The exchange rate of the base currency (`base_code`) to the exchange currency (`
 
 #### Astronomer Formatted Example
 ```javascript
-{
+[
 	{
 		"base_code": "USD",
 		"date": "2016-06-15",
-		"exchange_code": "AUD"
+		"exchange_code": "AUD",
 		"rate": 1.3524
 	},
 	{
@@ -139,7 +139,7 @@ The exchange rate of the base currency (`base_code`) to the exchange currency (`
 		"rate": 0.96322
 	},
 	...
-}
+]
 ```
 
 ##TO DO

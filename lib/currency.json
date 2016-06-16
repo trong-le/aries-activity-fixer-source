@@ -1,0 +1,32 @@
+[
+    {
+        "base_code": "USD",
+        "date": "2016-06-15",
+        "exchange_code": "AUD",
+        "rate": 1.3524
+    },
+    {
+        "base_code": "USD",
+        "date": "2016-06-15",
+        "exchange_code": "BGN",
+        "rate": 1.7416
+    },
+    {
+        "base_code": "USD",
+        "date": "2016-06-15",
+        "exchange_code": "BRL",
+        "rate": 3.4679
+    },
+    {
+        "base_code": "USD",
+        "date": "2016-06-15",
+        "exchange_code": "CAD",
+        "rate": 1.2857
+    },
+    {
+        "base_code": "USD",
+        "date": "2016-06-15",
+        "exchange_code": "CHF",
+        "rate": 0.96322
+    }
+]
