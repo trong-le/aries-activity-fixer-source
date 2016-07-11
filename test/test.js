@@ -14,8 +14,3 @@ test('test getExchangeRateData method', async (t) => {
 	const source = new FixerSource();
 	const data = await source.getExchangeRateData(config);
 });
-
-test('oauth onTaskCopy', async (t) => {
-	const source = new FixerSource();
-	const data = await source.onTaskCopy(config);
-});
